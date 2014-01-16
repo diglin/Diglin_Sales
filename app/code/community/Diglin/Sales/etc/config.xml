@@ -5,14 +5,17 @@
             <version>0.1.0</version>
         </Diglin_Sales>
     </modules>
+    
     <global>
         <models>
             <sales>
                 <rewrite>
-                    <order_invoice_total_tax>Diglin_Sales_Model_Order_Invoice_Total_Tax</order_invoice_total_tax><!-- Fix a bug with hidden tax amount -->
+                    <!-- Fix a bug with hidden tax amount -->
+                    <order_invoice_total_tax>Diglin_Sales_Model_Order_Invoice_Total_Tax</order_invoice_total_tax>
                 </rewrite>
             </sales>
         </models>
+        
         <helpers>
             <diglin_sales>
                 <class>Diglin_Sales_Helper</class>
