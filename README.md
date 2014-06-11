@@ -9,11 +9,12 @@ Since a long time our dear super Magento product have some issues with the tax c
 If you try to use discount code from the backend, you will get some curious display of the tax calculation.
 The ground is, the hidden tax is not taken in account into the calculation in the backend.
 
-***Hidden tax** is the amount of tax removed after a discount is applied on a product price including tax: e.g. With a VAT of 8%, the price is 150 CHF incl. VAT, the discount is 10% * 150 CHF = 15 CHF incl. VAT. Based on excluded VAT, the price is 138.89 CHF excl. VAT, the discount is 10% * 138.89 CHF= 13.89 CHF.The hidden tax value is 15 – 13.89 = 1.11 CHF*
+***Hidden tax** is the amount of tax removed after a discount is applied on a product price including tax: e.g. With a VAT of 8%, the price is 150 CHF incl. VAT, the discount is 10% * 150 CHF = 15 CHF incl. VAT. Based on excluded VAT, the price is 138.89 CHF excl. VAT, the discount is 10% * 138.89 CHF= 13.89 CHF.
+The hidden tax value is 15 – 13.89 = 1.11 CHF*
 
 ### Compatibility
 
-- Magento 1.7.x
+- Magento 1.7.x until Magento 1.8.x (in Magento 1.9 it's fixed)
 
 
 ### Tax Settings
